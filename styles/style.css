@@ -1,0 +1,594 @@
+#general {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	gap: 20px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+	color: #333;
+}
+header {
+	background-color: #f8f8f8;
+	padding: 20px;
+	text-align: center;
+}
+footer{
+	background-color: #161616;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.burger-menu {
+	display: none;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+#general {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	gap: 20px;
+}
+
+.news {
+	flex: 1;
+	margin: 0;
+	max-width: 900px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#info {
+	flex: 0 0 35%;
+	height: auto;
+	border: medium solid #000000;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	align-self: flex-start;
+}
+
+#entete {
+	height: 80px;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#entete .img-right {
+	float: right;
+	margin-top: auto;
+	vertical-align: top;
+}
+
+#nav {
+	height: 35px;
+	background-color: #888888;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#nav a {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px
+	
+}
+#nav a:hover {
+	background-color: #949494;
+}
+#nav a.active    {
+	background-color: #5F5E5E;
+}
+.dropdown{
+	position: relative;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #888888;
+	min-width: 160px;
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+
+#info {
+	width: 35%;
+	height: 250px;
+	border: medium solid #000000;
+	margin-top: 10px;
+	padding-left: 5px;
+}
+table {
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+table td{
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+#tableauage .img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#plan {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+iframe {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	border: 0;
+	max-width: 100%;
+}
+#contact {
+	margin: 0 auto;
+	width: auto;
+	border-collapse: collapse;
+}
+#contact td {
+	border: none;
+}
+#formulaire {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 20px;
+	border-collapse: collapse;
+ }
+#tableauage .img {
+	align-content: center;
+}
+#partenairesprincipaux table {
+	width: 100%;
+	border-collapse: collapse;
+}
+#partenairesprincipaux table td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+	border: none;
+}
+#partenairesoccassionels table {
+	width: 100%;
+	border-collapse: collapse;
+}
+#partenairesoccassionels table td {
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px;
+	border: none;
+}
+#tarifs p {
+	text-align: center;
+	margin: auto;
+}
+#teeshirt p {
+	text-align: center;
+	margin: auto;
+}
+.tshirt{
+	display: flex;
+	justify-content: center;
+}
+.tshirt .img {
+	display: block;
+	margin: 0 auto;
+}
+#dossier embed {
+	text-align: center;
+	display: block;
+	margin:  0 auto;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container .image {
+	width: 40%;
+	height: auto;
+}
+
+.container .text{
+	width: 55%;
+	padding-left: 10px;
+}
+
+#reglement embed {
+	text-align: center;
+	display: block;
+	margin:  0 auto;
+}
+
+.centered-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+#up {
+	position: fixed;
+	display: block;
+	right: 10px;
+	bottom: 10px;
+	padding: 10px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.up-image {
+	width: 50px;
+	height: auto;
+}
+
+#up:hover {
+	background-color: transparent;
+}
+/* coninuer a introduire ici*/
+/* coninuer a introduire ici*/
+/* coninuer a introduire ici*/
+/* coninuer a introduire ici*/
+#pied {
+	background-color: #161616;
+	color: #FFFFFF;
+	height: 150px;
+}
+
+#pied .left-div {
+	float: left;
+	width: 30%;
+}
+
+#pied .center-div {
+	float: left;
+	width: 40%;
+}
+
+#pied .right-div {
+	float: right;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-block;
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 20%;
+}
+#pied .right-div a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+#presentation img {
+	margin-left: 200px;
+}
+
+/* version media*/
+@media screen and (max-width: 768px){
+	body {
+		font-size: 14px;
+	}
+	header {
+		padding: 15px;
+	}
+	section {
+		padding: 15px;
+	}
+	#page{
+		width: 100%;
+		padding: 0 10px;
+	}
+	#entete .img-right{
+		width: 30%;
+		height: auto;
+		margin-top: 0;
+	}
+	.burger-menu{
+		display: block;
+	}
+	#nav {
+		display: none;
+		flex-direction: column;
+	}
+	#nav .active {
+		display: flex;
+	}
+	#nav a {
+		padding: 10px 15px;
+		border-top: 1px solid #333;
+	}
+	.dropdown-content {
+		position: static;
+		display: block;
+		box-shadow: none;
+	}	
+
+	#general {
+		flex-direction: column;
+	}
+	
+	#info{
+		width: 100%;
+		margin: 20px 0;
+	}
+	.news p {
+		white-space: normal;
+		word-wrap: break-word;
+		margin: 0;
+		padding: 0 10px;
+	}
+	#tableauage .img{
+		width: 100%;
+		height: auto;
+	}
+	iframe {
+		width: 100%;
+		height: auto;
+	}
+	#contact {
+	margin: 0 auto;
+	width: auto;
+	border-collapse: collapse;
+}
+	#formulaire {
+		max-width: 100%;
+	}
+	#partenairesprincipaux table {
+		display: flex;
+		flex-direction: column;
+	}
+	#partenairesprincipaux table tr {
+		display: flex;
+		flex-direction: column;
+	}
+	#partenairesprincipaux table td {
+		width: 100%;
+		padding: 10px 0;
+	}
+	#partenairesoccassionels table {
+		display: flex;
+		flex-direction: column;
+	}
+	#partenairesoccassionels table tr {
+		display: flex;
+		flex-direction: column;
+	}
+	#partenairesoccassionels table td {
+		width: 100%;
+		padding: 10px 0;
+	}
+	#tarifs p {
+		text-align: center;
+		margin: auto;
+		padding: 10px;
+		width: 100%;
+	}
+	#teeshirt p {
+		text-align: center;
+		margin: auto;
+		padding: 10px;
+		width: 100%;
+	}
+	.tshirt {
+		flex-direction: column;
+		align-items: center;
+	}
+	.tshirt .img {
+		margin-bottom: 10px;
+		width: 100%;
+		height: auto;
+	}
+	#dossier embed {
+		width: 100%;
+		height: auto;
+}
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.container .image {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.container .text {
+		width: 100%;
+		text-align: center;
+		padding-left: 0;
+	}
+	.centered-image {
+		width: 100%;
+		height: auto;
+	}
+	#reglement embed {
+		width: 100%;
+		height: auto;
+	}
+	.up-image {
+		width: 30px;
+		height: auto;
+	}
+}
+@media screen and (max-width: 480px){
+	body {
+		font-size: 12px;
+	}
+	header {
+		padding: 10px;
+	}
+	section {
+		padding: 10px;
+	}
+	#page{
+		width: 100%;
+		padding: 0 5px;
+	}
+	#entete .img-right{
+		width: 20%;
+		height: auto;
+		margin-top: 0;
+	}
+	.burger-menu{
+		display: block;
+	}
+	#nav {
+		display: none;
+		flex-direction: column;
+	}
+	#nav .active {
+		display: flex;
+	}
+	#nav a {
+		padding: 10px 15px;
+		border-top: 1px solid #333;
+	}
+	.dropdown-content {
+		position: static;
+		display: block;
+		box-shadow: none;
+	}
+	#general.container{
+		flex-direction: column;
+	}
+	#info{
+		width: 100%;
+		text-align: center;
+	}
+	.news p {
+		white-space: normal;
+		word-wrap: break-word;
+		margin: 0;
+		padding: 0 10px;
+	}
+		#tableauage .img{
+		width: 100%;
+		height: auto;
+	}
+	iframe {
+		width: 100%;
+		height: auto;
+	}
+	#contact {
+	margin: 0 auto;
+	width: auto;
+	border-collapse: collapse;
+	}
+	#formulaire {
+		max-width: 100%;
+	}
+	#partenairesprincipaux table {
+		display: flex;
+		flex-direction: column;
+	}
+	#partenairesprincipaux table tr {
+		display: flex;
+		flex-direction: column;
+	}
+	#partenairesprincipaux table td {
+		width: 100%;
+		padding: 10px 0;
+	}
+	#partenairesoccassionels table {
+		display: flex;
+		flex-direction: column;
+	}
+	#partenairesoccassionels table tr {
+		display: flex;
+		flex-direction: column;
+	}
+	#partenairesoccassionels table td {
+		width: 100%;
+		padding: 10px 0;
+	}
+	#tarifs p {
+		text-align: center;
+		margin: auto;
+		padding: 10px;
+		width: 100%;
+	}
+	#teeshirt p {
+		text-align: center;
+		margin: auto;
+		padding: 10px;
+		width: 100%;
+	}
+	.tshirt {
+		flex-direction: column;
+		align-items: center;
+	}
+	.tshirt .img {
+		margin-bottom: 10px;
+		width: 100%;
+		height: auto;
+	}
+	#dossier embed {
+		width: 100%;
+		height: auto;
+}
+	.container .image {
+		width: 100%;
+		height: auto;
+	}
+	.container .text {
+		width: 100%;
+		padding-left: 0;
+	}
+	.centered-image {
+		width: 100%;
+		height: auto;
+	}
+	#reglement embed {
+		width: 100%;
+		height: auto;
+	}
+		.up-image {
+			width: 20px;
+			height: auto;
+	}
+}
