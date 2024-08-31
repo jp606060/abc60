@@ -269,7 +269,7 @@ iframe {
 #pied {
 	background-color: #161616;
 	color: #FFFFFF;
-	height: 180px;
+	height: 200px;
 }
 
 #pied .left-div {
@@ -301,7 +301,7 @@ iframe {
 	text-decoration: none;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 18px;
 	padding-left: 10px;
 	padding-right: 10px;
 	display: inline-block;
