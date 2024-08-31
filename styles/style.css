@@ -269,7 +269,7 @@ iframe {
 #pied {
 	background-color: #161616;
 	color: #FFFFFF;
-	height: 150px;
+	height: 180px;
 }
 
 #pied .left-div {
@@ -304,6 +304,7 @@ iframe {
 	padding-left: 10px;
 	padding-right: 10px;
 	display: inline-block;
+	margin-bottom: 5px;
 }
 
 #presentation img {
