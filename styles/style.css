@@ -275,6 +275,7 @@ iframe {
 #pied .left-div {
 	float: left;
 	width: 30%;
+	line-height: 1.6;
 }
 
 #pied .center-div {
