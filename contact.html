@@ -110,7 +110,34 @@
 	</div>
 		<h2><u><span style="color: blue">C</span>ontactez-nous:</u></h2>
 		<p>Pour toute question ou information, merci de remplir le formulaire ci-dessous :</p>
+
+
+
 	<div id="formulaire">
+	<form id="myForm" action="https://script.google.com/macros/s/AKfycbzUCZi7Pm4ScRacWpOk8H-Fyp5Z6cezyaGKzBqxvrGslTaO0mn_-wvdhB4rtDxqRZA3/exec" method="POST">
+    <label for="name"><strong>Nom - Prénom:</strong></label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email"><strong>Email:</strong></label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="message"><strong>Message:</strong></label><br>
+    <textarea id="message" name="message" rows="10" required></textarea><br><br>
+    
+    <!-- reCAPTCHA widget -->
+    <div class="g-recaptcha" data-sitekey="6LfzYjMqAAAAAHNcwOdp6W0rYmU6jGaSMVduCcd4"></div>
+    
+    <button type="submit">Envoyer</button>
+</form>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+	
+	
+	
+	
+	
+	<!-- <div id="formulaire">
 		<form id="myForm">
 			<label for="name"> <strong>Nom - Prènom:</strong></label><br><br>
 			<input type="text" id="name" name="entry.13691690" rows="2" cols="50" required>
@@ -126,7 +153,7 @@
 			<br>
 			<button type="submit">Envoyer</button><br><br>
 		
-		</form>
+		</form> -->
 		
 		<script>
 			document.getElementById('myForm').addEventListener('submit',function(event) {
