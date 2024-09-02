@@ -141,7 +141,7 @@
 		<!-- https://docs.google.com/forms/d/e/1FAIpQLSfUGo_-Sy4jpbqtQTee-QF3Q_Y5hnN-RSSRk1Z_gSIIPyTGww/formResponse -->
 		<script>
 			document.getElementById('myForm').addEventListener('submit',function(event) {
-			event.preventDefault();
+			// Suppression de event.preventDefault();
 				
 			const formData = new FormData(this);
 			fetch('https://docs.google.com/forms/d/e/1FAIpQLSfUGo_-Sy4jpbqtQTee-QF3Q_Y5hnN-RSSRk1Z_gSIIPyTGww/formResponse', {
