@@ -263,6 +263,11 @@ iframe {
 	background-color: transparent;
 }
 
+.g-recaptcha {
+    z-index: 1;
+    position: relative;
+}
+
 button[type="submit"] {
     z-index: 1000; /* Place le bouton au-dessus de tout */
     position: relative;
