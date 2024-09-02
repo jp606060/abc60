@@ -144,9 +144,9 @@
 			event.preventDefault();
 				
 			const formData = new FormData(this);
-			fetch('https://script.google.com/macros/s/AKfycbzUCZi7Pm4ScRacWpOk8H-Fyp5Z6cezyaGKzBqxvrGslTaO0mn_-wvdhB4rtDxqRZA3/exec', {
-				method: 'POST',
-				mode: 'cors',
+			fetch('https://script.google.com/macros/s/AKfycbzUCZi7Pm4ScRacWpOk8H-Fyp5Z6cezyaGKzBqxvrGslTaO0mn_-wvdhB4rtDxqRZA3/exec?${queryString}', {
+				method: 'GET',
+				mode: 'no-cors',
 				body: formData
 			}).then(reponse => {
 				alert('Formulaire soumis avec succés !');
