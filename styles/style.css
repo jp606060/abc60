@@ -280,6 +280,13 @@ button[type="submit"] {
     font-size: 16px;
 }
 
+#tournois .img {
+	align-content: center;
+}
+
+#tournois .p {
+	text-align: center;
+}
 /* coninuer a introduire ici*/
 /* coninuer a introduire ici*/
 /* coninuer a introduire ici*/
